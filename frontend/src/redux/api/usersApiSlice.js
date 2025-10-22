@@ -1,8 +1,6 @@
 import { apiSlice } from './apiSlice'
 import { USERS_URL } from '../constants'
 import { logout } from '../features/auth/authSlice'
-import { data } from 'react-router'
-import { get } from 'mongoose'
 
 export const usersApiSlice = apiSlice.injectEndpoints({
     endpoints: (builder) => ({
